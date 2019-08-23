@@ -1,0 +1,96 @@
+body {
+  background-color: #FEFEFE;
+  color: #35363B;
+  font-size: 16px;
+}
+
+/* Navbar*/
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+/* Navbar Categories */
+a, .right  {
+  color: #121212;
+  float: right;
+  text-decoration: none;
+  font-family: Helvetica,sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  /* Hover over Navbar Categories */
+  color:#fcfcfc;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+/* Image Caption */
+figcaption {
+  font-size: 0.9em;
+  text-align:left;
+  margin-right:28%;
+}
+
+/* Title */
+h1 {
+  text-transform:capitalize;
+  font-family: Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+/* Description */
+h3 {
+  font-size: 1.1em;
+  line-height: 1.25;
+}
+
+.author {
+  font-family: Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/* All text */
+article {
+  padding-top: 100px;
+  line-height: 1.3;
+  font-family: 'Noto Serif',serif;
+}
+
+.container {
+  margin: 0 auto;
+  margin-bottom:50px;
+  width: 50%;
+}
